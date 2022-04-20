@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "git@github.com:warren-dev-ios/ReactiveSwift.git", .branch("master")),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
+        .package(url: "git@github.com:warren-dev-ios/RxSwift.git", .branch("main")),
 //        .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "2.0.0")), // dev
 //        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "8.0.0")), // dev
 //        .package(url: "https://github.com/AliSoftware/OHHTTPStubs.git", .upToNextMajor(from: "9.0.0")), // dev
